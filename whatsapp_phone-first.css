@@ -1,0 +1,387 @@
+
+
+*, .content:before, .content:after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.nav li { 
+    list-style-type: none;
+    display: none;
+}
+
+i {
+    color: white;
+} 
+
+li  a {
+    text-decoration: none; 
+    color: white; 
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    background-color:#128c7e;
+    height: 4rem;
+    max-width: 100%;
+    position: fixed;
+}
+
+.logo {
+    display: flex;
+    padding-left: 10px;
+    justify-content: flex-start;
+}
+
+.logo p {
+    display: inline;
+    padding-left: 1rem;
+    margin-top: 1rem;
+    color: white;
+}
+
+.logo-img img {
+    width: 2.5rem;
+    height: 2.5rem;
+    padding-top: 0.3rem;
+    margin-top: 0.5rem;
+}
+
+.logo a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+.manu-button nav .navbar .navbar-light {
+    height: 1rem;
+    align-self: stretch ;
+}
+
+ul li {
+    margin-left: 50px;
+    text-transform: uppercase;
+}
+
+
+.img-pc {
+    padding-top: 2.5rem ;
+    height: 17rem;
+    width: 23rem;
+}
+
+.logo-pc {
+    height:54px ;
+    width: 156px ;
+}
+
+.header-container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    color: black;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    background-color:  #E7F0E4;
+    align-items: center;
+    padding-top: 6rem;
+}
+
+ h2 {
+    font-size: 24px;
+    letter-spacing: .05em;
+    margin-bottom: 1rem;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    font-weight: bold;
+    text-align: center;    
+} 
+
+.phone-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.android, .iphone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1 {
+    padding-top: 2rem;
+    width: 12rem;
+    height: 23.5rem;   
+}
+
+.btn {
+    border-radius: 7rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    width: 8rem;
+    align-self: center;
+    padding: 0.8rem;
+    background-color: #128c7e;
+    border: none;
+    font-weight: 700;
+}
+
+.img2 {
+    padding-top: 1.5rem;
+    width: 10.5rem;
+    height: 23.5rem;
+    align-self: center;
+}
+
+.phones-footer {
+    padding-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.visit{
+    padding-top: 2rem;
+    font-size: 1.2rem;
+    line-height: 34px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.install {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 0;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 9rem; 
+}
+
+.visit a {
+    color: #39b3ed;
+    font-size: inherit;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.install a {
+    color: #39b3ed;
+    font-size: inherit;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #FCF2C6;
+    align-items: center;
+    padding-top: 6rem;     
+}
+
+.description {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    text-align: center; 
+    padding-top: 1rem; 
+    margin-bottom: 0.2rem;
+}
+
+.description a {
+    text-decoration: none;
+    color: #39b3ed;
+}
+
+.buttons-pc .btn {
+    width: 18rem;
+    margin-top: 0; 
+    font-weight: 400;
+}
+
+.buttons-pc { 
+    padding-top:2.5rem;
+} 
+
+.footer-container2 div {
+    margin-top: 70px;
+    padding-bottom: 3rem;
+}
+
+.footer-container2 div a {
+    text-decoration: none;
+    display: block;
+    line-height: 2.5;
+    color: #39b3ed;
+}
+
+.container-section {
+    background-color:#273443; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start; 
+    padding-top: 58px;
+    padding-right: 5rem;
+    padding-left: 1rem;
+    padding-bottom: 3rem;
+}
+
+.container-section li {
+    color: white;
+    font-weight: 800;   
+}
+
+.container-section a {
+    text-transform: capitalize;
+    font-weight: 300;
+    line-height: 3rem;
+}
+
+.article ul {
+    list-style-type: none;
+}
+
+.main-footer {
+    background-color:#1c1e21; ;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: inherit;
+    font-weight: bold;
+    padding: 1rem;
+    line-height: 2.5rem;
+}
+
+.main-footer a {
+    text-decoration: none;
+    color: white;
+}
+
+@media(min-width: 700px) {
+
+    .nav li {
+        display: contents;
+    }
+
+    .logo-img {
+        display: none;
+    }
+
+    .logo::after {
+        content: url(whats.svg);
+        padding-top: 1rem;
+    }
+
+    .logo p {
+        display: none;
+    }
+
+    .nav li{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: nowrap; 
+        padding-top: 0.5rem;
+    }
+
+    .container {
+        height: 5rem;
+        min-width: 50rem ;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    .menu-button {
+        display: none;
+    }
+
+    .nav li a {
+        font-size: 0.9rem;
+        font-weight: 600;
+    }
+
+    .header-container {
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        color: black;
+        width: 100%;
+    }
+
+    .container1, .container2 {
+        width: 50%;
+        margin-left:0 auto;
+    }
+
+    .android {
+        margin-right: 4rem;
+    }
+
+    .buttons-pc {
+        padding-top: 0.5rem;
+    }
+
+   .container-section {
+       display: flex;
+       justify-content: center;
+    }
+
+   .main-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .main-footer div:last-child {
+       margin-left: auto;
+       padding-right: 1rem;
+    }
+}
+    
+@media(min-width:1000px) {
+
+    .container1 {
+        width: 50%;
+        margin-left: 2rem;
+        margin-right: 0.5rem;
+    }
+
+    .container2 {
+        width: 50%;
+        margin-left: 0.5rem;
+        margin-right: 2rem;
+    } 
+
+    .buttons-pc {
+        padding-top: 1.8rem;
+    }
+
+    .android {
+        margin-right: 10rem;
+    }
+
+    .phone-img {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 4;
+    }
+}
